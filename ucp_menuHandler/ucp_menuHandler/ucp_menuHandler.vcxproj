@@ -250,6 +250,8 @@
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="MenuHandler.Lua.ixx" />
+    <ClCompile Include="MenuHandler.SHC-DisplayElement.ixx" />
+    <ClCompile Include="MenuHandler.SHC.ixx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

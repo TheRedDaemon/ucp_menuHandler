@@ -29,6 +29,12 @@
     <ClCompile Include="MenuHandler.Lua.ixx">
       <Filter>Modules</Filter>
     </ClCompile>
+    <ClCompile Include="MenuHandler.SHC.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-DisplayElement.ixx">
+      <Filter>Modules</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
