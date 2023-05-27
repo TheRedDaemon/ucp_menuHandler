@@ -1,0 +1,16 @@
+<module>
+  <project path="ucp_menuHandler/ucp_menuHandler/ucp_menuHandler.vcxproj"/>
+  
+  <files> <!-- first without could be equal to build="Release"-->
+    <file src="ucp_menuHandler/$(Configuration)/menuHandler.dll" />
+    <file src="*.lua" target="." />
+    <file src="*.yml" target="." />
+  </files>
+  
+  <files build="Debug">
+    <file src="ucp_menuHandler/$(Configuration)/menuHandler.dll" />
+    <file src="ucp_menuHandler/$(Configuration)/menuHandler.pdb" />
+    <file src="*.lua" target="." />
+    <file src="*.yml" target="." />
+  </files>
+</module>
