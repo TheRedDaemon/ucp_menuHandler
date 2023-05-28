@@ -16,6 +16,9 @@
     <Filter Include="Modules">
       <UniqueIdentifier>{cde19250-c033-491f-b6ef-2c0bf69c4039}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Modules\SHC">
+      <UniqueIdentifier>{2c9a1cd9-8bbd-4bcc-9bd3-255879835f22}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="windowsInclude.h">
@@ -30,10 +33,25 @@
       <Filter>Modules</Filter>
     </ClCompile>
     <ClCompile Include="MenuHandler.SHC.ixx">
-      <Filter>Modules</Filter>
+      <Filter>Modules\SHC</Filter>
     </ClCompile>
     <ClCompile Include="MenuHandler.SHC-DisplayElement.ixx">
-      <Filter>Modules</Filter>
+      <Filter>Modules\SHC</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-Menu.ixx">
+      <Filter>Modules\SHC</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-MenuView.ixx">
+      <Filter>Modules\SHC</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-MenuViewMenuPair.ixx">
+      <Filter>Modules\SHC</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-MenuModal.ixx">
+      <Filter>Modules\SHC</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuHandler.SHC-MenuItem.ixx">
+      <Filter>Modules\SHC</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

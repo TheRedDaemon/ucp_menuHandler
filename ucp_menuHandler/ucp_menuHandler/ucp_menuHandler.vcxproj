@@ -251,6 +251,11 @@
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="MenuHandler.Lua.ixx" />
     <ClCompile Include="MenuHandler.SHC-DisplayElement.ixx" />
+    <ClCompile Include="MenuHandler.SHC-Menu.ixx" />
+    <ClCompile Include="MenuHandler.SHC-MenuItem.ixx" />
+    <ClCompile Include="MenuHandler.SHC-MenuModal.ixx" />
+    <ClCompile Include="MenuHandler.SHC-MenuView.ixx" />
+    <ClCompile Include="MenuHandler.SHC-MenuViewMenuPair.ixx" />
     <ClCompile Include="MenuHandler.SHC.ixx" />
   </ItemGroup>
   <ItemGroup>
